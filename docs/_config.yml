@@ -1,1 +1,11 @@
+title: Project Euler 1 -> 100
+author: Sofia Zavala
+email: szavala3 at outlook.com
 theme: minima
+description: > # this means to ignore newlines until "baseurl:"
+  Night of a hundred Eulers.
+# social links
+# twitter_username: your-twitter-handle # DO NOT include the @ character, or else the build will fail!
+github_username:  s-zavala # DO NOT include the @ character, or else the build will fail!
+
+# show_excerpts: true # set to false to remove excerpts on the homepage
