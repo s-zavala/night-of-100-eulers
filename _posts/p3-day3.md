@@ -1,4 +1,8 @@
-## Problem 3 Day 3
+---
+title: Problem 3 part iii
+date: 2021-05-21
+layout: post
+---
 #### Three is a luck number!
 How luck is lucky when you get an answer, but do not understand it? Not very.
 

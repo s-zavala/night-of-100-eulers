@@ -1,4 +1,8 @@
-## Day 2 on Problem 3
+---
+title: Problem 3 Part ii
+date: 2021-05-20
+layout: post
+---
 #### Prime factorization is funky
 05/20/21
 The Cryptography course on Khan Academy is saving me on this problem. How do I find the greatest prime factor of 600851475143, a twelve digit and roughly 5 byte number? The course is tackling a similar problem except for a number that is twenty digits long, in order to simulate RSA encryption for a Mars rover. The instructor, Brit, clarified questions that I have bumped into. What is the time requirement for this calculation and what is the space requirement in memory?
