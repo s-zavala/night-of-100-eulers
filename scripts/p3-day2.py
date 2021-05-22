@@ -54,15 +54,15 @@ def prime_no_theorem(wall):
     return wall / log(wall)
 
 
-# s = sieve_of_eratosthenes(target=10)
-# print(s)
+s = sieve_of_eratosthenes(target=20000)
+print(s)
 # print(prime_no_theorem(square_root))
 
 # my_range = range(775046, 775146)
 # for num in my_range.__reversed__():
 #     print(num, is_prime(num))
 
-largest_prime = 775121
-largest_prime_bin = bin(largest_prime)
+# largest_prime = 775121
+# largest_prime_bin = bin(largest_prime)
 
-print(target / largest_prime)
+# print(target / largest_prime)
