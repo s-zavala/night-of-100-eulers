@@ -4,23 +4,27 @@ Three is a lucky number!
 """
 
 def fermat_primality(a, p):
+    """
+    For all primes and few composites fermat returns 1.
+    Else composite.
+    """
     print(f'A: {a}')
     print(f'P: {p}')
     fermat = (a ** (p - 1)) % p
     print(f'Fermat: {fermat}')
 
-# for a in range(1, 20):
-#     fermat_primality(a, p=101)
+for a in range(1, 20):
+    fermat_primality(a, p=91)
 
 from random import randrange
 from itertools import count
 from math import gcd
 import sys
 
-number = 600851475143
-x = 35
-# number = 10403
-# x = 2
+# number = 600851475143
+# x = 35
+number = 988889
+x = 4
 
 """
 Pollard's rho algorithm

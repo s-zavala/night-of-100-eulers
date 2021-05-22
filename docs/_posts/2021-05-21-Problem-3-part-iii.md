@@ -3,8 +3,8 @@ title: "Problem 3 part iii"
 date:   2021-05-21 00:00:00 -0400
 layout: post
 ---
-#### Three is a luck number!
-How luck is lucky when you get an answer, but do not understand it? Not very.
+#### Three is a lucky number!
+How lucky is lucky when you get an answer, but do not understand it? Not very.
 
 The Khan academy series on primality testing concluded with Fermat's Little Theorem. For any positive integer, a, and some prime, p, then the number a^p - a is a multiple of p. Another way to look at this is with modular arithmetic a^p is congruent to a mod p. If a is not divisible by p, then we can rewrite the last statement as a^p-1 is congruent to 1 mod p. This is the basis for Fermat's primality test. Wikipedia it and you will find a nice outline of an algorithm, but watch out for pseudoprimes.
 
