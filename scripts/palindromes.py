@@ -9,6 +9,6 @@ def number_list():
         palindromes.append(int(palindrome))
     return palindromes
 
-if __name__ = '__main__':
+if __name__ == '__main__':
     pal_list = number_list()
     print(pal_list[:6])
