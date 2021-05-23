@@ -1,7 +1,10 @@
 import re
 
+desktop_path = '/home/sofia-desktop/Code/project-euler/scripts/pal.txt'
+laptop_path = '/home/sofia/Code/euler/scripts/pal.txt'
+
 def number_list():
-    fhan = open('/home/sofia-desktop/Code/project-euler/scripts/pal.txt')
+    fhan = open(laptop_path)
     palindromes = []
     for line in fhan:
         line.rstrip()
