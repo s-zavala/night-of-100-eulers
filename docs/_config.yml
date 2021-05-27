@@ -17,20 +17,31 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-
+url: https://s-zavala.github.io/project-euler/
 title: Night of a Hundred Eulers
-email: szavala3 at outlook.com
+permalink: /blog/:year/:month/:day/:title/
+baseurl: "" # the subpath of your site, e.g. /blog
 description: >- # this means to ignore newlines until "baseurl:"
   Project Euler 1 to 100.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username:  s-zavala
+email: szavala3 at outlook.com
 
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
+
+lsi: false
+safe: true
+source: [s-zavala/project-euler]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -40,14 +51,16 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+include:
+  - _posts/
