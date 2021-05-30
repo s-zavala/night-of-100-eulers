@@ -54,8 +54,8 @@ def prime_no_theorem(wall):
     return wall / log(wall)
 
 
-s = sieve_of_eratosthenes(target=20000)
-print(s)
+s = sieve_of_eratosthenes(target=2000000)
+print(sum(s))
 # print(prime_no_theorem(square_root))
 
 # my_range = range(775046, 775146)

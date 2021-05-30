@@ -1,14 +1,14 @@
 """
 Find the 10,001th prime number.
 """
-import random
+
 
 def prime_no_theorem(n):
     from math import log
     return n / log(n)
 # Estimate the closest number greater than the 10,001th prime.
 estimate = prime_no_theorem(n=117000)
-print(estimate)
+# print(estimate)
 
 def miller_test(n, k):
     """
@@ -16,6 +16,8 @@ def miller_test(n, k):
     k: a positive integer for repetitions of test
     Return True if n is probably prime, else False.
     """
+    import random
+    if n == 2: return True
     def fermat():
         count = 0
         while count <= r - 1:
@@ -55,5 +57,5 @@ for num in range(5, 117000, 2):
     if len(primes) > 10000: break
     if miller_test(n=num, k=12) == True:
         primes.append(num)
-print(primes[-1])
-print(len(primes))
+# print(primes[-1])
+# print(len(primes))
