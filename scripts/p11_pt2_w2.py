@@ -60,3 +60,5 @@ for row in grid:
             print(num)
             prod = test_adjacent(test_x=grid.index(row), test_y=row.index(num))
             if prod: print(prod)
+
+print('hello world')
